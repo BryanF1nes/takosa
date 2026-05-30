@@ -1,0 +1,234 @@
+{
+  "timestamp": "2026-05-30T14:32:08Z",
+  "controller_id": "openwifi-ctrl-va-02",
+  "network_summary": {
+    "total_switches": 3,
+    "total_aps": 8,
+    "active_clients": 217
+  },
+  "switches": [
+    {
+      "switch_id": "sw-core-01",
+      "model": "EdgeSwitch 48",
+      "ip_address": "192.168.20.1",
+      "status": "online",
+      "connected_aps": 3
+    },
+    {
+      "switch_id": "sw-edge-02",
+      "model": "EdgeSwitch 24",
+      "ip_address": "192.168.20.2",
+      "status": "online",
+      "connected_aps": 3
+    },
+    {
+      "switch_id": "sw-edge-03",
+      "model": "EdgeSwitch 24",
+      "ip_address": "192.168.20.3",
+      "status": "online",
+      "connected_aps": 2
+    }
+  ],
+  "access_points": [
+    {
+      "ap_id": "ap-lobby-01",
+      "mac_address": "D4:7A:3C:11:8A:01",
+      "connected_switch": "sw-core-01",
+      "port": "0/1",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 1,
+          "frequency_mhz": 2412,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 36,
+          "frequency_mhz": 5180,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Adaptive CSMA/CA",
+        "dwell_time_ms": 15,
+        "hop_sequence": [5180, 5200, 5220, 5240],
+        "last_hop_timestamp": "2026-05-30T14:31:58Z"
+      }
+    },
+    {
+      "ap_id": "ap-lobby-02",
+      "mac_address": "D4:7A:3C:11:8A:02",
+      "connected_switch": "sw-core-01",
+      "port": "0/2",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 6,
+          "frequency_mhz": 2437,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 44,
+          "frequency_mhz": 5220,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Dynamic Frequency Selection",
+        "dwell_time_ms": 12,
+        "hop_sequence": [5220, 5240, 5260, 5280],
+        "last_hop_timestamp": "2026-05-30T14:32:00Z"
+      }
+    },
+    {
+      "ap_id": "ap-conference-01",
+      "mac_address": "D4:7A:3C:11:8A:03",
+      "connected_switch": "sw-core-01",
+      "port": "0/3",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 11,
+          "frequency_mhz": 2462,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 48,
+          "frequency_mhz": 5240,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Adaptive CSMA/CA",
+        "dwell_time_ms": 20,
+        "hop_sequence": [5240, 5260, 5280, 5300],
+        "last_hop_timestamp": "2026-05-30T14:31:55Z"
+      }
+    },
+    {
+      "ap_id": "ap-warehouse-01",
+      "mac_address": "D4:7A:3C:11:8A:04",
+      "connected_switch": "sw-edge-02",
+      "port": "0/4",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 1,
+          "frequency_mhz": 2412,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 149,
+          "frequency_mhz": 5745,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "TSCH",
+        "dwell_time_ms": 10,
+        "hop_sequence": [5745, 5765, 5785, 5805],
+        "last_hop_timestamp": "2026-05-30T14:32:01Z"
+      }
+    },
+    {
+      "ap_id": "ap-warehouse-02",
+      "mac_address": "D4:7A:3C:11:8A:05",
+      "connected_switch": "sw-edge-02",
+      "port": "0/5",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 6,
+          "frequency_mhz": 2437,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 153,
+          "frequency_mhz": 5765,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "TSCH",
+        "dwell_time_ms": 10,
+        "hop_sequence": [5765, 5785, 5805, 5825],
+        "last_hop_timestamp": "2026-05-30T14:31:59Z"
+      }
+    },
+    {
+      "ap_id": "ap-loading-dock-01",
+      "mac_address": "D4:7A:3C:11:8A:06",
+      "connected_switch": "sw-edge-02",
+      "port": "0/6",
+      "status": "degraded",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 11,
+          "frequency_mhz": 2462,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 157,
+          "frequency_mhz": 5785,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Adaptive CSMA/CA",
+        "dwell_time_ms": 25,
+        "hop_sequence": [5785, 5805, 5825, 5845],
+        "last_hop_timestamp": "2026-05-30T14:31:50Z"
+      }
+    },
+    {
+      "ap_id": "ap-office-east",
+      "mac_address": "D4:7A:3C:11:8A:07",
+      "connected_switch": "sw-edge-03",
+      "port": "0/1",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 1,
+          "frequency_mhz": 2412,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 100,
+          "frequency_mhz": 5500,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Dynamic Frequency Selection",
+        "dwell_time_ms": 18,
+        "hop_sequence": [5500, 5520, 5540, 5560],
+        "last_hop_timestamp": "2026-05-30T14:32:03Z"
+      }
+    },
+    {
+      "ap_id": "ap-office-west",
+      "mac_address": "D4:7A:3C:11:8A:08",
+      "connected_switch": "sw-edge-03",
+      "port": "0/2",
+      "status": "online",
+      "channels": {
+        "2_4_ghz": {
+          "active_channel": 6,
+          "frequency_mhz": 2437,
+          "supports_hopping": true
+        },
+        "5_ghz": {
+          "active_channel": 104,
+          "frequency_mhz": 5520,
+          "supports_hopping": true
+        }
+      },
+      "frequency_hop_values": {
+        "hop_algorithm": "Adaptive CSMA/CA",
+        "dwell_time_ms": 16,
+        "hop_sequence": [5520, 5540, 5560, 5580],
+        "last_hop_timestamp": "2026-05-30T14:32:05Z"
+      }
+    }
+  ]
+}
