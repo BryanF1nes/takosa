@@ -9,5 +9,3 @@ input_dir = BASE_DIR / "input" / "access_points_sample.txt"
 
 aps = load_access_points(input_dir)
 service = AccessPointService(aps)
-
-pprint(service.summary())
