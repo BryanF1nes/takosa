@@ -20,10 +20,10 @@ class ComparisonService:
 
     def _format(self, ap: AccessPoint) -> str:
         return (
-            f"switch={ap.switch_name}, "
-            f"ap={ap.access_point}, "
-            f"freq={ap.frequency}, "
-            f"hop={ap.frequency_hop_value}"
+            f"Switch={ap.switch_name}, "
+            f"Access_Point={ap.access_point}, "
+            f"Frequency={ap.frequency}, "
+            f"Hop_Value={ap.frequency_hop_value}"
         )
 
     def _get_mismatches(self, ap1: AccessPoint, ap2: AccessPoint) -> list[str]:

@@ -15,21 +15,19 @@ def load_access_points(file_path: str) -> list[AccessPoint]:
     access_points = []
 
     with open(file_path, "r") as f:
-        lines = [line.strip() for line in f if line.strip()]
+        raw_lines = [line.rstrip("\n") for line in f]
 
-    for i in range(0, len(lines), 4):
-        chunk = lines[i:i + 4]
+    lines = [line.strip() for line in raw_lines if line.strip()]
 
-        if len(chunk) < 4:
-            continue
+    i = 0
+    while i + 3 < len(lines):
+        switch_name = lines[i]
+        access_point = lines[i + 1]
+        frequency_line = lines[i + 2]
+        hop_line = lines[i + 3]
 
-        switch_name = chunk[0]
-        access_point = chunk[1]
-        frequency_line = chunk[2]
-        hop_line = chunk[3]
-
-        frequency = parse_frequency(frequency_line)
-        hop_value = parse_hop_value(hop_line)
+        frequency = int(''.join(c for c in frequency_line if c.isdigit()))
+        hop_value = hop_line.replace("Frequency Hop Value:", "").strip()
 
         access_points.append(
             AccessPoint(
@@ -40,4 +38,6 @@ def load_access_points(file_path: str) -> list[AccessPoint]:
             )
         )
 
-        return access_points
+        i += 4
+
+    return access_points

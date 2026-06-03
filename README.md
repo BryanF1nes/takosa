@@ -3,12 +3,12 @@
 ## Core Requirements
 
 - [x] Ability to load/upload two text files (.txt format).
-- [ ] Ability to import or enter a list of search values/identifiers for bulk searches.
-- [ ] Search all values from the search list against both text files.
+- [x] Ability to import or enter a list of search values/identifiers for bulk searches.
+- [x] Search all values from the search list against both text files.
 - [ ] Extract matching lines, entries, or associated values from each text file.
-- [ ] Display and process all searched values, including matched and unmatched results.
-- [ ] Compare values retrieved from both text files and flag mismatches while preserving all search results.
-- [ ] Support large text files efficiently.
+- [x] Display and process all searched values, including matched and unmatched results.
+- [x] Compare values retrieved from both text files and flag mismatches while preserving all search results.
+- [x] Support large text files efficiently.
 
 ## Search & Comparison logic
 

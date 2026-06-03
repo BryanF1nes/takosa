@@ -58,6 +58,11 @@ def main():
     comparison_service = ComparisonService(file1_data, file2_data)
     results = comparison_service.compare(search_values)
 
+    print(f"Search values: {len(search_values)}")
+    print(f"File1 records: {len(file1_data)}")
+    print(f"File2 records: {len(file2_data)}")
+    print(f"Results: {len(results)}")
+
     ExcelExporter(results).export(str(output_path))
 
     print(f"Report generated successfully: {output_path}")
