@@ -1,0 +1,249 @@
+RT9300L 96 9A
+AP1
+Frequency: 777 MHz
+Frequency Hop Value: 0xE2
+
+GT8800X 48 EF
+AP2
+Frequency: 784 MHz
+Frequency Hop Value: 0x19
+
+GT8800X 48 EF
+AP3
+Frequency: 775 MHz
+Frequency Hop Value: 0xB7
+
+GT8800X 48 EF
+AP4
+Frequency: 781 MHz
+Frequency Hop Value: 0xC6
+
+JT9300L 48 AB
+AP5
+Frequency: 780 MHz
+Frequency Hop Value: 0x6D
+
+NX4500P 24 CD
+AP6
+Frequency: 784 MHz
+Frequency Hop Value: 0x8E
+
+GT8800X 48 EF
+AP7
+Frequency: 767 MHz
+Frequency Hop Value: 0xE9
+
+GT8800X 48 EF
+AP8
+Frequency: 765 MHz
+Frequency Hop Value: 0x83
+
+JT9300L 48 AB
+AP9
+Frequency: 765 MHz
+Frequency Hop Value: 0x49
+
+MX7200R 24 GH
+AP10
+Frequency: 768 MHz
+Frequency Hop Value: 0x17
+
+RT9300L 96 9A
+AP11
+Frequency: 766 MHz
+Frequency Hop Value: 0xEE
+
+MX7200R 24 GH
+AP12
+Frequency: 784 MHz
+Frequency Hop Value: 0x30
+
+RT9300L 96 9A
+AP13
+Frequency: 788 MHz
+Frequency Hop Value: 0x82
+
+JT9300L 48 AB
+AP14
+Frequency: 777 MHz
+Frequency Hop Value: 0xCC
+
+JT9300L 48 AB
+AP15
+Frequency: 782 MHz
+Frequency Hop Value: 0x7E
+
+NX4500P 24 CD
+AP16
+Frequency: 787 MHz
+Frequency Hop Value: 0x5B
+
+MX7200R 24 GH
+AP17
+Frequency: 771 MHz
+Frequency Hop Value: 0x65
+
+RT9300L 96 9A
+AP18
+Frequency: 764 MHz
+Frequency Hop Value: 0x1D
+
+NX4500P 24 CD
+AP19
+Frequency: 777 MHz
+Frequency Hop Value: 0xE9
+
+MX7200R 24 GH
+AP20
+Frequency: 762 MHz
+Frequency Hop Value: 0xF8
+
+MX7200R 24 GH
+AP21
+Frequency: 773 MHz
+Frequency Hop Value: 0x2B
+
+NX4500P 24 CD
+AP22
+Frequency: 772 MHz
+Frequency Hop Value: 0x33
+
+GT8800X 48 EF
+AP23
+Frequency: 776 MHz
+Frequency Hop Value: 0xDB
+
+NX4500P 24 CD
+AP24
+Frequency: 768 MHz
+Frequency Hop Value: 0xC6
+
+MX7200R 24 GH
+AP25
+Frequency: 773 MHz
+Frequency Hop Value: 0x61
+
+MX7200R 24 GH
+AP26
+Frequency: 785 MHz
+Frequency Hop Value: 0xBB
+
+JT9300L 48 AB
+AP27
+Frequency: 762 MHz
+Frequency Hop Value: 0x9E
+
+RT9300L 96 9A
+AP28
+Frequency: 781 MHz
+Frequency Hop Value: 0x46
+
+MX7200R 24 GH
+AP29
+Frequency: 776 MHz
+Frequency Hop Value: 0x3A
+
+JT9300L 48 AB
+AP30
+Frequency: 776 MHz
+Frequency Hop Value: 0xA1
+
+JT9300L 48 AB
+AP31
+Frequency: 761 MHz
+Frequency Hop Value: 0xA1
+
+RT9300L 96 9A
+AP32
+Frequency: 769 MHz
+Frequency Hop Value: 0x68
+
+MX7200R 24 GH
+AP33
+Frequency: 771 MHz
+Frequency Hop Value: 0xB0
+
+GT8800X 48 EF
+AP34
+Frequency: 760 MHz
+Frequency Hop Value: 0x34
+
+GT8800X 48 EF
+AP35
+Frequency: 784 MHz
+Frequency Hop Value: 0x36
+
+NX4500P 24 CD
+AP36
+Frequency: 780 MHz
+Frequency Hop Value: 0x98
+
+GT8800X 48 EF
+AP37
+Frequency: 773 MHz
+Frequency Hop Value: 0xC3
+
+RT9300L 96 9A
+AP38
+Frequency: 778 MHz
+Frequency Hop Value: 0x44
+
+GT8800X 48 EF
+AP39
+Frequency: 767 MHz
+Frequency Hop Value: 0x6A
+
+RT9300L 96 9A
+AP40
+Frequency: 763 MHz
+Frequency Hop Value: 0x81
+
+JT9300L 48 AB
+AP41
+Frequency: 776 MHz
+Frequency Hop Value: 0xA5
+
+NX4500P 24 CD
+AP42
+Frequency: 773 MHz
+Frequency Hop Value: 0x5C
+
+GT8800X 48 EF
+AP43
+Frequency: 777 MHz
+Frequency Hop Value: 0xE8
+
+RT9300L 96 9A
+AP44
+Frequency: 790 MHz
+Frequency Hop Value: 0x56
+
+JT9300L 48 AB
+AP45
+Frequency: 764 MHz
+Frequency Hop Value: 0xA5
+
+RT9300L 96 9A
+AP46
+Frequency: 786 MHz
+Frequency Hop Value: 0x79
+
+GT8800X 48 EF
+AP47
+Frequency: 775 MHz
+Frequency Hop Value: 0x1B
+
+MX7200R 24 GH
+AP48
+Frequency: 764 MHz
+Frequency Hop Value: 0xC5
+
+RT9300L 96 9A
+AP49
+Frequency: 774 MHz
+Frequency Hop Value: 0x3F
+
+NX4500P 24 CD
+AP50
+Frequency: 763 MHz
+Frequency Hop Value: 0x8C
