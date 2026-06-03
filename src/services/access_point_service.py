@@ -14,31 +14,20 @@ class AccessPointService:
 
         return result
 
-    def by_frequency(self, frequency: int):
+    def by_access_point(self, access_point: str):
         result = []
 
         for ap in self.access_points:
-            if ap.frequency == frequency:
+            if ap.access_point == access_point:
                 result.append(ap)
 
         return result
 
-    def index_by_switch(self):
-        grouped = {}
+    def by_hop_value(self, hop_value: str):
+        result = []
 
         for ap in self.access_points:
-            if ap.switch_name not in grouped:
-                grouped[ap.switch_name] = []
-
-            grouped[ap.switch_name].append(ap)
-
-        return grouped
-
-    def index_by_key(self):
-        result = {}
-
-        for ap in self.access_points:
-            key = (ap.switch_name, ap.access_point)
-            result[key] = ap
+            if ap.frequency_hop_value == hop_value:
+                result.append(ap)
 
         return result

@@ -1,11 +1,9 @@
-from pathlib import Path
-from pprint import pprint
-from parser import load_access_points
+from load_file import load_file
 from services.access_point_service import AccessPointService
 
+file_a_path = input("Enter path for File A: ")
 
-BASE_DIR = Path(__file__).parent
-input_dir = BASE_DIR / "input" / "access_points_sample.txt"
+aps_a = load_file(file_a_path)
+service_a = AccessPointService(aps_a)
 
-aps = load_access_points(input_dir)
-service = AccessPointService(aps)
+print(service_a)
