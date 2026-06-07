@@ -22,13 +22,13 @@
 
 ## Output requirements (excel report)
 
-- Search value/identifier
-- Status (Found in file 1 / file 2 / both / missing)
-- Result returned from text file 1
-- Result returned from text file 2
-- Comparison Status (match / mismatch / missing)
-- Highlighted mismatch fields
-- Color coded results
+- [x] Search value/identifier
+- [x] Status (Found in file 1 / file 2 / both / missing)
+- [x] Result returned from text file 1
+- [x] Result returned from text file 2
+- [x] Comparison Status (match / mismatch / missing)
+- [ ] Highlighted mismatch fields
+- [x] Color coded results
     - Green = Match
     - Red = Mismatch
     - Yellow = Missing Records
